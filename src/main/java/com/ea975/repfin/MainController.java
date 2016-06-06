@@ -7,6 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Map;
 
 @Controller
+@RequestMapping(value="/inicial")
 public class MainController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
